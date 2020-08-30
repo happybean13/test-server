@@ -13,5 +13,8 @@ router.get('/hoho', function(req, res, next) {
 router.get('/hohoho/', function(req, res, next) {
   res.json({name: 'jaeyun', age:27})
 });
+router.get('/hohohos/', function(req, res, next) {
+  res.json({name: 'jaeyun', age:27})
+});
 
 module.exports = router;
